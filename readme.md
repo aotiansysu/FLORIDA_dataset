@@ -102,6 +102,7 @@ As an ablation study, we tested our annotation scheme and tool on the publicly a
 
 #### Our Contributions
 * Annotation propagation up to 100 frames using SOT
+* Auto-annotation using MOT
 * Pedestrian trajectory smoothing and orentation correction
 * Static annotation propagation (for stopped or parked vehicles)
 * Vehicle orientation correction
