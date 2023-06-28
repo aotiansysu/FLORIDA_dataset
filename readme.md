@@ -80,14 +80,6 @@ for label in label_json:
 # Annotation tool
 As an ablation study, we tested our annotation scheme and tool on the publicly available [LUMPI](https://data.uni-hannover.de/cs_CZ/dataset/lumpi) dataset. The following screen recordings demonstrate the utilization of SOT and MOT models, as well as batch mode correction and helper functions.
 
-### Operations
-* Annotation propagation up to 100 frames using SOT
-* Pedestrian trajectory smoothing and orentation correction
-* Static annotation propagation (for stopped or parked vehicles)
-* Vehicle orientation correction
-* Merging tracks 
-* Batch mode adjustment
-
 ### SOT demo
 [Car](https://drive.google.com/file/d/1zSHhj6QcQpcJHV2yBc07dMP_e0TrSX4k/view?usp=drive_link)
 
@@ -100,4 +92,20 @@ As an ablation study, we tested our annotation scheme and tool on the publicly a
 [Car](https://drive.google.com/file/d/1ltABDyKs0HT6NtzRfVOB2BvFE0shcuQ0/view?usp=drive_link)
 
 [Pedestrian](https://drive.google.com/file/d/1SqNvcr5USM1w66rbh6lMn9d68Uq_1tcp/view?usp=drive_link)
+
+
+### Operations
+
+#### Provided by SUSTechPOINTS
+* Batch mode adjustment
+* Automatic box fitting 
+
+#### Our Contributions
+* Annotation propagation up to 100 frames using SOT
+* Pedestrian trajectory smoothing and orentation correction
+* Static annotation propagation (for stopped or parked vehicles)
+* Vehicle orientation correction
+* Merging tracks
+
+
 
